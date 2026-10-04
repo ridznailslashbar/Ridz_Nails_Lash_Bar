@@ -1,0 +1,14 @@
+ADD NEW GALLERY PHOTOS TO THIS FOLDER.
+
+Naming examples:
+gallery-09.jpg
+gallery-10.webp
+gallery-11.jpeg
+gallery-12.png
+
+Then commit/upload the file to GitHub.
+DO NOT edit index.html.
+GitHub Pages/Jekyll rebuilds the gallery automatically.
+
+Supported by this site: .jpg .jpeg .png .webp .gif
+For best speed, use JPG or WebP and avoid enormous original files when possible.
