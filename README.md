@@ -12,14 +12,7 @@ Google Maps, Read Reviews and Write Review buttons are already linked using the 
 Instagram icons in the navigation/footer are already linked.
 
 ## PUBLISH IN GITHUB
-1. Unzip this ZIP.
-2. Open the `ridznails` repository in the salon GitHub account.
-3. Remove/replace the old website files if necessary.
-4. Upload EVERYTHING INSIDE this ZIP to the repository root.
-5. Commit changes.
-6. Settings → Pages → Source: Deploy from a branch.
-7. Branch: `main`; Folder: `/(root)` → Save.
-8. Wait a few minutes and open the published site.
+
 
 IMPORTANT: This package uses Jekyll for the automatic gallery. Do NOT add `.nojekyll`.
 
