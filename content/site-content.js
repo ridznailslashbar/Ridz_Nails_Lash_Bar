@@ -62,10 +62,10 @@ const SITE = {
   ],
   rewardNote:"Offer eligibility and conditions are confirmed by Ridz Nails & Lash Bar at booking. Offers are subject to change.",
 
-  // Put REAL client reviews here when ready.
+  // Featured genuine Google client reviews.
   reviews: [
-    {name:"Your client",text:"Replace this with a real client review."},
-    {name:"Your client",text:"Replace this with another real client review."},
-    {name:"Your client",text:"Replace this with another real client review."}
+    {name:"Richa A.",text:"I went to Ridhi for the first time to get my nails done for a wedding and I was absolutely impressed with the results. She is extremely patient with her clients. The design was exactly the way I wanted for my special occasion. Highly recommend her if you are looking for stunning long lasting nails."},
+    {name:"Shreya P.",text:"Got my nails done and I’m in love with the results 💖❤️ The detailing, shape and finish are amazing. Super talented work — highly recommended! The finishing and attention to detail are impressive. Definitely recommend! Best ❤️❤️ Such beautiful and precise nail art ✨"},
+    {name:"Bhavika K.",text:"I recently got nail extensions done and I absolutely love them! The shape, length, and finish are perfect. They look very natural and elegant. The nails are strong, smooth, and beautifully shaped. I’ve received so many compliments already! Highly recommend for anyone wanting a clean and stylish look."}
   ]
 };
