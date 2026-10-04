@@ -61,3 +61,19 @@ footer small{font-size:11px}
   .service-row p{font-size:14px}
   .duration,.price{font-size:13px}
 }
+
+/* Header brand descriptor visibility update */
+.brand span{
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.18em;
+  color:#4d3a37;
+  opacity:1;
+}
+@media(max-width:800px){
+  .brand span{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.13em;
+  }
+}
