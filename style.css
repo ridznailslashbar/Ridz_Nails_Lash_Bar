@@ -17,3 +17,47 @@
 
 .modal-open{overflow:hidden}.pay-modal{position:fixed;inset:0;z-index:1000;display:none;place-items:center;padding:20px}.pay-modal.show{display:grid}.pay-backdrop{position:absolute;inset:0;background:#1d1211b8;backdrop-filter:blur(8px)}.pay-card{position:relative;z-index:1;width:min(520px,100%);background:#fff9f7;border-radius:28px;padding:45px;text-align:center;box-shadow:0 35px 100px #0005}.pay-card h2{font-size:46px;margin:12px 0}.pay-card>p{color:#75625e;line-height:1.65}.pay-close{position:absolute;right:18px;top:14px;border:0;background:none;font-size:28px;color:#70514c;cursor:pointer}.pay-number{margin:25px 0;padding:20px;border:1px solid #dec3bd;border-radius:18px;background:#f8ece8;display:flex;flex-direction:column;gap:7px}.pay-number span{font-size:9px;letter-spacing:.18em;font-weight:700;color:#a26a62}.pay-number strong{font:400 31px "Italiana";letter-spacing:.04em}.pay-note{font-size:11px!important;margin:22px auto 0;max-width:390px}.copy-status{min-height:22px;margin-top:10px;font-size:11px;font-weight:700;color:#9d625a}
 @media(max-width:600px){.pay-card{padding:38px 22px}.pay-card h2{font-size:38px}}
+
+/* Readability update — intentionally roomier, without oversized display headings */
+body{font-size:16px}
+.topline{height:34px;font-size:11px}
+.brand span,.footer-brand span{font-size:10px}
+nav{font-size:14px;gap:28px}
+.btn{font-size:12px;padding:15px 24px}
+.eyebrow{font-size:11px}
+.hero-copy>p{font-size:18px;line-height:1.7}
+.soft-link,.text-link{font-size:12px}
+.welcome>p,.heading>p,.form-intro p,.contact p{font-size:16px;line-height:1.75}
+.mini-values{font-size:13px}
+.tab{font-size:12px}
+.service-row{padding:25px 5px}
+.service-row h3{font-size:26px}
+.service-row p{font-size:15px;line-height:1.55}
+.duration,.price{font-size:14px}
+.mini-book{font-size:11px}
+.reward p{font-size:15px}
+.reward strong{font-size:14px}
+.fine{font-size:11px;line-height:1.6}
+.steps p{font-size:14px;line-height:1.6}
+.safe{font-size:11px;line-height:1.6}
+.reviews>p{font-size:16px}
+.review blockquote{font-size:15px}
+.review b{font-size:12px}
+label{font-size:12px}
+input,textarea{font-size:16px}
+.form-note{font-size:11px;line-height:1.5}
+footer small{font-size:11px}
+.google-trust{font-size:13px}
+.google-trust strong{font-size:16px}
+.google-trust a{font-size:11px}
+.pay-card>p{font-size:15px}
+.pay-note{font-size:13px!important}
+.copy-status{font-size:13px}
+
+@media(max-width:800px){
+  nav{font-size:16px}
+  .hero-copy>p{font-size:17px}
+  .welcome>p,.heading>p,.form-intro p,.contact p{font-size:16px}
+  .service-row p{font-size:14px}
+  .duration,.price{font-size:13px}
+}
