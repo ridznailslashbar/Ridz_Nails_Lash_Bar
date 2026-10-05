@@ -38,7 +38,7 @@
 </section>
 
 <section id="gallery" class="section gallery-section">
-<div class="heading"><div><span class="eyebrow">REAL RIDZ WORK</span><h2>The <em>Ridz Edit.</em></h2></div><p>A little inspiration for your next appointment — made to suit you, down to the details.</p></div>
+<div class="heading"><div><span class="eyebrow">REAL RIDZ WORK</span><h2>The <em>Ridz Edit.</em></h2></div><p>Swipe, drag or simply watch. Your next set might be right here.</p></div>
 <div class="carousel-shell">
 <button class="arrow prev" aria-label="Previous">‹</button>
 <div class="fade fade-left"></div><div class="fade fade-right"></div>
@@ -58,7 +58,7 @@
 
 <section class="book-strip section"><span class="eyebrow">YOUR RIDZ MOMENT</span><h2>Choose. Book.<br><em>Glow.</em></h2>
 <div class="steps"><article><b>01</b><h3>Choose</h3><p>Pick your nail or lash service.</p></article><article><b>02</b><h3>Book</h3><p>Choose a time that works for you.</p></article><article><b>03</b><h3>Enjoy</h3><p>Switch off and let Ridz do the rest.</p></article></div>
-<div class="actions centered"><a class="btn light book-link" href="#">BOOK NOW</a><button id="payIdOpen" class="btn outline" type="button">PAY DEPOSIT</button></div><p class="safe">Payments are handled securely by the salon's payment provider. This website never stores card details.</p>
+<div class="actions centered"><a class="btn light book-link" href="#">BOOK & PAY WITH SQUARE</a></div><p class="safe">Booking and payment are completed securely through Square. This website never stores card details.</p>
 </section>
 
 <section id="reviews" class="section reviews"><span class="eyebrow">CLIENT LOVE</span><h2>Love your Ridz moment?</h2><p>We'd love to hear about it.</p><div id="reviewGrid" class="review-grid"></div><div class="google-review-actions">
@@ -67,14 +67,21 @@
 </div></section>
 
 <section id="enquiry" class="section enquiry">
-<div class="form-intro"><span class="eyebrow">QUICK ENQUIRY / FEEDBACK</span><h2>Ask Ridz <em>anything.</em></h2><p>Questions, appointment enquiries or feedback — drop us a note and it will go straight to Ridz.</p></div>
-<form action="https://formsubmit.co/ridznails@gmail.com" method="POST">
+<div class="form-intro"><span class="eyebrow">QUICK ENQUIRY / FEEDBACK</span><h2>Ask Ridz <em>anything.</em></h2><p>Questions, appointment enquiries or feedback — drop us a note and it will go straight to Ridz.</p>
+<div class="enquiry-perks">
+  <article><span>♡</span><div><strong>Refer a friend</strong><p>Refer a friend and get 20% off on your next appointment.</p></div></article>
+  <article><span>♡</span><div><strong>Pay by cash</strong><p>Pay by cash &amp; get 5% off.</p></div></article>
+  <article><span>♡</span><div><strong>Have a custom design in mind?</strong><p>Reach out for a quote and upload your inspiration image with your enquiry.</p></div></article>
+</div>
+</div>
+<form action="https://formsubmit.co/ridznails@gmail.com" method="POST" enctype="multipart/form-data">
 <input type="hidden" name="_subject" value="New Ridz Nails & Lash Bar website enquiry">
 <input type="hidden" name="_captcha" value="true">
 <label>Name<input name="Name" type="text" required placeholder="Your name"></label>
 <div class="form-two"><label>Phone number<input name="Phone" type="tel" required placeholder="04XX XXX XXX"></label><label>Email<input name="Email" type="email" required placeholder="you@email.com"></label></div>
-<label>Ask me / Feedback<textarea name="Ask me" rows="5" required placeholder="How can we help?"></textarea></label>
-<button class="btn" type="submit">SEND TO RIDZ →</button><p class="form-note">Your details are used only to respond to this enquiry.</p>
+<label>Ask me / Feedback<textarea name="Ask me" rows="5" required placeholder="How can we help? If you have a custom design in mind, tell us about it here."></textarea></label>
+<label>Upload inspiration / design image <span class="optional">(optional)</span><input class="file-input" name="attachment" type="file" accept="image/*"></label>
+<button class="btn" type="submit">SEND TO RIDZ →</button><p class="form-note">Your details and any uploaded image are used only to respond to this enquiry.</p>
 </form>
 </section>
 
@@ -84,19 +91,5 @@
 </section>
 </main>
 <footer><div class="footer-brand"><img src="assets/brand/ridz-logo.png" alt="Ridz"><span>NAILS & LASH BAR</span></div><p>Look good. Feel better ♡</p><div class="footer-social"><div class="social-icons"><a id="navInstagram" href="https://www.instagram.com/ridz_nail_bar" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a><a href="https://www.google.com/maps/search/?api=1&query=Ridz%20Nails%20%26%20Lash%20Bar&query_place_id=ChIJrbPFPJWL1moRl3ztAEu5Uo8" target="_blank" rel="noopener" aria-label="Google Business"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.2c0-.7-.1-1.4-.2-2H12v3.7h5.1a4.4 4.4 0 0 1-1.9 2.9v2.4h3.1c1.8-1.7 2.7-4.1 2.7-7z"/><path d="M12 21c2.5 0 4.7-.8 6.3-2.2l-3.1-2.4c-.9.6-2 .9-3.2.9-2.4 0-4.5-1.6-5.2-3.8H3.6V16A9.5 9.5 0 0 0 12 21z"/><path d="M6.8 13.5a5.8 5.8 0 0 1 0-3V8H3.6a9.5 9.5 0 0 0 0 8l3.2-2.5z"/><path d="M12 6.7c1.4 0 2.6.5 3.6 1.4l2.7-2.7A9 9 0 0 0 3.6 8l3.2 2.5C7.5 8.3 9.6 6.7 12 6.7z"/></svg></a></div></div><small>© <span id="year"></span> Ridz Nails & Lash Bar</small></footer>
-<div id="payIdModal" class="pay-modal" aria-hidden="true">
-  <div class="pay-backdrop" data-close-payid></div>
-  <div class="pay-card" role="dialog" aria-modal="true" aria-labelledby="payTitle">
-    <button class="pay-close" type="button" aria-label="Close" data-close-payid>×</button>
-    <span class="eyebrow">RIDZ PAYID</span>
-    <h2 id="payTitle">Pay your <em>deposit ♡</em></h2>
-    <p>Please send your agreed deposit via PayID.</p>
-    <div class="pay-number"><span>PAYID</span><strong id="payIdNumber">0421 202 594</strong></div>
-    <button id="copyPayId" class="btn" type="button">COPY PAYID</button>
-    <p class="pay-note">Please use your <strong>name / booking name</strong> as the payment reference. Confirm the deposit amount with Ridz before sending.</p>
-    <div id="copyStatus" class="copy-status" aria-live="polite"></div>
-  </div>
-</div>
-
 <script src="content/site-content.js"></script><script src="script.js"></script>
 </body></html>

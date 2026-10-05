@@ -15,8 +15,6 @@
 .footer-social .social-icons a{border-color:#6d5652}.footer-social .social-icons svg{stroke:#d9aaa1}.footer-social .social-icons a:nth-child(2) svg{fill:#d9aaa1}
 @media(max-width:800px){nav .social-icons{margin-top:5px}.google-trust{gap:12px;flex-wrap:wrap}.google-trust>div{flex-wrap:wrap;justify-content:center}.footer-social{order:3}}
 
-.modal-open{overflow:hidden}.pay-modal{position:fixed;inset:0;z-index:1000;display:none;place-items:center;padding:20px}.pay-modal.show{display:grid}.pay-backdrop{position:absolute;inset:0;background:#1d1211b8;backdrop-filter:blur(8px)}.pay-card{position:relative;z-index:1;width:min(520px,100%);background:#fff9f7;border-radius:28px;padding:45px;text-align:center;box-shadow:0 35px 100px #0005}.pay-card h2{font-size:46px;margin:12px 0}.pay-card>p{color:#75625e;line-height:1.65}.pay-close{position:absolute;right:18px;top:14px;border:0;background:none;font-size:28px;color:#70514c;cursor:pointer}.pay-number{margin:25px 0;padding:20px;border:1px solid #dec3bd;border-radius:18px;background:#f8ece8;display:flex;flex-direction:column;gap:7px}.pay-number span{font-size:9px;letter-spacing:.18em;font-weight:700;color:#a26a62}.pay-number strong{font:400 31px "Italiana";letter-spacing:.04em}.pay-note{font-size:11px!important;margin:22px auto 0;max-width:390px}.copy-status{min-height:22px;margin-top:10px;font-size:11px;font-weight:700;color:#9d625a}
-@media(max-width:600px){.pay-card{padding:38px 22px}.pay-card h2{font-size:38px}}
 
 /* Readability update — intentionally roomier, without oversized display headings */
 body{font-size:16px}
@@ -50,10 +48,6 @@ footer small{font-size:11px}
 .google-trust{font-size:13px}
 .google-trust strong{font-size:16px}
 .google-trust a{font-size:11px}
-.pay-card>p{font-size:15px}
-.pay-note{font-size:13px!important}
-.copy-status{font-size:13px}
-
 @media(max-width:800px){
   nav{font-size:16px}
   .hero-copy>p{font-size:17px}
@@ -77,3 +71,13 @@ footer small{font-size:11px}
     letter-spacing:.13em;
   }
 }
+
+/* Enquiry offers + custom-design upload */
+.enquiry-perks{display:grid;gap:12px;margin-top:32px}
+.enquiry-perks article{display:flex;gap:13px;align-items:flex-start;padding:16px 18px;background:#fff9f7;border:1px solid #e4cbc5;border-radius:16px}
+.enquiry-perks article>span{color:#a96760;font-size:18px;line-height:1.2}
+.enquiry-perks strong{font-size:13px;letter-spacing:.03em;color:#3e2b29}
+.enquiry-perks p{font-size:13px!important;line-height:1.55!important;margin:5px 0 0!important;color:#776560}
+.optional{font-weight:400;letter-spacing:0;color:#8a7772}
+.file-input{border:1px dashed #d2aea6;border-radius:12px;padding:12px;margin-top:10px;background:#fff9f7}
+.file-input::file-selector-button{border:0;border-radius:999px;background:#2b2020;color:#fff;padding:9px 13px;margin-right:10px;font:700 10px "DM Sans";letter-spacing:.06em;cursor:pointer}

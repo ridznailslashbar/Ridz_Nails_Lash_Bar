@@ -13,14 +13,3 @@ function autoplay(){clearInterval(timer);timer=setInterval(()=>{if(!interacting)
 $(".next").onclick=()=>{go(current+1);autoplay()};$(".prev").onclick=()=>{go(current-1);autoplay()};
 track.addEventListener("scroll",()=>requestAnimationFrame(focusNearest),{passive:true});track.addEventListener("pointerdown",()=>interacting=true);window.addEventListener("pointerup",()=>{interacting=false;autoplay()});window.addEventListener("load",()=>{focusNearest();autoplay()});
 
-const payModal=$("#payIdModal"),payOpen=$("#payIdOpen"),payNum=$("#payIdNumber"),copyBtn=$("#copyPayId"),copyStatus=$("#copyStatus");
-if(payNum) payNum.textContent=SITE.payIdDisplay;
-function openPay(){payModal.classList.add("show");payModal.setAttribute("aria-hidden","false");document.body.classList.add("modal-open")}
-function closePay(){payModal.classList.remove("show");payModal.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open");copyStatus.textContent=""}
-if(payOpen) payOpen.addEventListener("click",openPay);
-$$("[data-close-payid]").forEach(x=>x.addEventListener("click",closePay));
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&payModal.classList.contains("show"))closePay()});
-if(copyBtn) copyBtn.addEventListener("click",async()=>{
-  try{await navigator.clipboard.writeText(SITE.payIdCopy);copyStatus.textContent="PayID copied ✓";copyBtn.textContent="COPIED ✓";setTimeout(()=>copyBtn.textContent="COPY PAYID",1600)}
-  catch(e){copyStatus.textContent="PayID: "+SITE.payIdDisplay}
-});
