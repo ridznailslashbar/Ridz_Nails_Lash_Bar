@@ -13,3 +13,12 @@ function autoplay(){clearInterval(timer);timer=setInterval(()=>{if(!interacting)
 $(".next").onclick=()=>{go(current+1);autoplay()};$(".prev").onclick=()=>{go(current-1);autoplay()};
 track.addEventListener("scroll",()=>requestAnimationFrame(focusNearest),{passive:true});track.addEventListener("pointerdown",()=>interacting=true);window.addEventListener("pointerup",()=>{interacting=false;autoplay()});window.addEventListener("load",()=>{focusNearest();autoplay()});
 
+
+// Reviews carousel — automatically handles any number of reviews in SITE.reviews.
+const reviewTrack=$("#reviewGrid"),reviewCards=[...reviewTrack.querySelectorAll(".review")];let reviewCurrent=0,reviewTimer,reviewInteracting=false;
+function focusNearestReview(){if(!reviewCards.length)return;const c=reviewTrack.getBoundingClientRect().left+reviewTrack.clientWidth/2;let best=0,dist=Infinity;reviewCards.forEach((card,i)=>{const r=card.getBoundingClientRect(),d=Math.abs((r.left+r.width/2)-c);if(d<dist){dist=d;best=i}});reviewCurrent=best;reviewCards.forEach((card,i)=>card.classList.toggle("focused",i===best))}
+function goReview(i){if(!reviewCards.length)return;reviewCurrent=(i+reviewCards.length)%reviewCards.length;const card=reviewCards[reviewCurrent];const target=card.offsetLeft-(reviewTrack.clientWidth-card.clientWidth)/2;reviewTrack.scrollTo({left:target,behavior:"smooth"});setTimeout(focusNearestReview,450)}
+function reviewAutoplay(){clearInterval(reviewTimer);if(reviewCards.length>1)reviewTimer=setInterval(()=>{if(!reviewInteracting)goReview(reviewCurrent+1)},4500)}
+const reviewNext=$(".review-next"),reviewPrev=$(".review-prev");if(reviewNext)reviewNext.onclick=()=>{goReview(reviewCurrent+1);reviewAutoplay()};if(reviewPrev)reviewPrev.onclick=()=>{goReview(reviewCurrent-1);reviewAutoplay()};
+reviewTrack.addEventListener("scroll",()=>requestAnimationFrame(focusNearestReview),{passive:true});reviewTrack.addEventListener("pointerdown",()=>reviewInteracting=true);reviewTrack.addEventListener("pointerup",()=>{reviewInteracting=false;reviewAutoplay()});reviewTrack.addEventListener("pointercancel",()=>{reviewInteracting=false;reviewAutoplay()});
+window.addEventListener("load",()=>{focusNearestReview();reviewAutoplay()});
