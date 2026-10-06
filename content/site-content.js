@@ -49,8 +49,8 @@ const SITE = {
   ],
 
   rewards: [
-    {title:"Nail Lover",text:"Complete 3 nail appointments within 3 months.",reward:"$20 off your next appointment"},
-    {title:"Lash Lover",text:"Complete 3 eyelash appointments within 3 months.",reward:"$25 off your next appointment"},
+    {title:"Nail Lover",text:"Complete 5 nail appointments",reward:"$20 off your next appointment"},
+    {title:"Lash Lover",text:"Complete 3 eyelash appointments",reward:"$25 off your next appointment"},
     {title:"The Ridz Treat",text:"Book services together with a combined service value over $200.",reward:"$30 off"}
   ],
   rewardNote:"Offer eligibility and conditions are confirmed by Ridz Nails & Lash Bar at booking. Offers are subject to change.",
