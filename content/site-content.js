@@ -34,7 +34,7 @@ const SITE = {
       {name:"Gel-X Take-Off + Re-done",duration:"2 hrs",price:"$75",note:"Removal followed by a completely fresh Gel-X set."}
     ]},
     {name:"Eyelash Extensions",services:[
-      {name:"Classic",duration:"1 hr 15 min",price:"<s>$70</s> $55 (After Discount)",note:"A clean, timeless lash enhancement."},
+      {name:"Classic",duration:"1 hr 15 min",price:"<s>$70</s> $55",note:"A clean, timeless lash enhancement."},
       {name:"Hybrid",duration:"1 hr 30 min",price:"<s>$85</s> $70",note:"A balanced blend of definition and fullness."},
       {name:"Volume",duration:"1 hr 45 min",price:"<s>$90</s> $75",note:"Soft, fuller lashes with added dimension."},
       {name:"Mega Volume",duration:"2 hrs",price:"<s>$130</s> $110",note:"Maximum fullness for a bold lash look."},
