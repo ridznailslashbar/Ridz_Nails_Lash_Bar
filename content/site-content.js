@@ -34,14 +34,14 @@ const SITE = {
       {name:"Gel-X Take-Off + Re-done",duration:"2 hrs",price:"$75",note:"Removal followed by a completely fresh Gel-X set."}
     ]},
     {name:"Eyelash Extensions",services:[
-      {name:"Classic",duration:"1 hr",price:"<s>$70</s> $56 (After Discount)",note:"A clean, timeless lash enhancement."},
-      {name:"Hybrid",duration:"1 hr 30 min",price:"$85",note:"A balanced blend of definition and fullness."},
-      {name:"Volume",duration:"1 hr 45 min",price:"$90",note:"Soft, fuller lashes with added dimension."},
-      {name:"Mega Volume",duration:"2 hrs",price:"$130",note:"Maximum fullness for a bold lash look."},
-      {name:"Anime Extension",duration:"2 hrs",price:"$110",note:"An elongated lash shape with lifted outer corners."},
-      {name:"Wispy Classic",duration:"2 hrs 30 min",price:"$100",note:"A textured, airy Classic set with wispy definition."},
-      {name:"Wispy Hybrid",duration:"2 hrs 30 min",price:"$110",note:"A textured Hybrid set with soft wispy definition."},
-      {name:"Wispy Volume",duration:"2 hrs 30 min",price:"$130",note:"A fuller Volume set with a wispy finish."},
+      {name:"Classic",duration:"1 hr 15 min",price:"<s>$70</s> $55 (After Discount)",note:"A clean, timeless lash enhancement."},
+      {name:"Hybrid",duration:"1 hr 30 min",price:"<s>$85</s> $70",note:"A balanced blend of definition and fullness."},
+      {name:"Volume",duration:"1 hr 45 min",price:"<s>$90</s> $75",note:"Soft, fuller lashes with added dimension."},
+      {name:"Mega Volume",duration:"2 hrs",price:"<s>$130</s> $110",note:"Maximum fullness for a bold lash look."},
+      {name:"Anime Extension",duration:"2 hrs",price:"<s>$110</s> $90",note:"An elongated lash shape with lifted outer corners."},
+      {name:"Wispy Classic",duration:"1 hr 30 min",price:"<s>$100</s> $85",note:"A textured, airy Classic set with wispy definition."},
+      {name:"Wispy Hybrid",duration:"1 hr 30 min",price:"<s>$110</s> $90",note:"A textured Hybrid set with soft wispy definition."},
+      {name:"Wispy Volume",duration:"1 hr 30 min",price:"<s>$130</s> $110",note:"A fuller Volume set with a wispy finish."},
       {name:"Refill",duration:"45 min",price:"Variable",note:"Refresh and rebalance your existing lash set."},
       {name:"Removal",duration:"30 min",price:"$20",note:"Gentle removal of your existing lash extensions."},
       {name:"Extra",duration:"30 min",price:"$20",note:"Additional lash service time where required."}
